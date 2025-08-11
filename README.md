@@ -1,5 +1,5 @@
-# Adversarial Video Promotion Attacks Against Text-to-Video Retrieval
-We propose the first targeted attacks against Text-to-Video Retrieval (T2VR) to expose an overlooked vulnerability that may be abused for financial gain and widespread (mis)information. See our work at [arxiv].
+# Adversarial Video Promotion Against Text-to-Video Retrieval
+We propose the first video promotion attack against Text-to-Video Retrieval (T2VR) to expose an overlooked vulnerability that may be abused for financial gain and widespread (mis)information. See our work at [arxiv].
 
 
 # **TL;DR;**
