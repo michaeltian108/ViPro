@@ -4,19 +4,20 @@
 We propose the first **video promotion** attack against Text-to-Video Retrieval (T2VR) to expose an overlooked vulnerability that may be abused for financial gain and widespread (mis)information. See our work at [ArXiv](https://arxiv.org/abs/2508.06964).
 
 ## Table of Contents
+- [Introduciton](#introduction)
 - [Features](#features)
 - [Weights](#weights)
 - [Update Log](#update-log)
 - [To-do](#to-do)
 - [Citation](#citation)
 
-## Features
-In our work, we propose **Mo**dality **Re**finement (MoRe) to capture the intricate intra-/inter-modality interaction to boost transferability. MoRe contains: (1) **Temporal Clipping:** Video frames are clustered into video clips based on frame-to-frame similarity. (2)**Semantical Weighting:** For each clip and each query, we calculate its frame-to-frame similarity and frame-to-query similarity using cosine similarity between all frames x and all query tokens. Frames and queries with low similarity are suppressed by their corresponding weights during optimization. (3) **Clip-wise Optimization:** Perturbation are optimized as per clip before outputting the final perturbed video:
+## Introduciton
+In our work, we pioneer **Vi**deo **Pro**motion (ViPro) as the first attack to adversarially *promote* video ranks regarding selected queries. We further propose **Mo**dality **Re**finement (MoRe) to capture the intricate intra-/inter-modality interaction to boost transferability. MoRe contains: (1) **Temporal Clipping:** Video frames are clustered into video clips based on frame-to-frame similarity. (2)**Semantical Weighting:** For each clip and each query, we calculate its frame-to-frame similarity and frame-to-query similarity using cosine similarity between all frames x and all query tokens. Frames and queries with low similarity are suppressed by their corresponding weights during optimization. (3) **Clip-wise Optimization:** Perturbation are optimized as per clip before outputting the final perturbed video:
 
 <img width="2437" height="811" alt="overview_v2" src="https://github.com/user-attachments/assets/694da61b-f62a-4b26-882e-e2ac2acff6e4" />
 
-**TL;DR;**
-This is our project featuring:
+## Features
+This project features:
 1. 📚Mainstream Text-to-Video Retrieval (T2VR) datasets (MSR-VTT, ActivityNet, DiDeMo);
 2. 💻Finetuning SOTA models (Cap4Video, DRL).
 3. 👿Attacking models with Co-Attack, SGA, and ViPro(ours) under **White-box**, **Grey-box** and **Black-box** settings.
