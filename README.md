@@ -33,7 +33,9 @@ Using the open-sourced code, we trained both videos on MSR-VTT for our attacks a
 
 | Model |  R@1 |  R@5 | R@10 | MR |
 | :---- | :---- | :---- | :---- | :---- |
+| DRL | 47.60% | 73.40% | 81.90% | 2.00 |
 | [DRL(Ours)](https://drive.google.com/file/d/1WV2ogaelAB3XoP5wxJpkeOq6bINhrdBt/view?usp=sharing) | 46.00% | 72.10% | 81.70% | 2.00 |
+| Cap4Video | 49.30% | 74.30% | 83.80% | 2.00 |
 | [Cap4Video(Ours)](https://drive.google.com/file/d/1D72TP7EElj_2dsb_Q-_z-ZyDj2HUvQiZ/view?usp=sharing) | 47.50% | 73.90% |  82.50% | 2.00 |
 
 ## To-do
