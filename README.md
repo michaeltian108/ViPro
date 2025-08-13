@@ -1,7 +1,7 @@
 # Adversarial Video Promotion Against Text-to-Video Retrieval
 
 ## Overview
-We propose the first **video promotion** attack against Text-to-Video Retrieval (T2VR) to expose an overlooked vulnerability that may be abused for financial gain and widespread (mis)information. See our work at [ArXiv](https://arxiv.org/abs/2508.06964).
+We propose the first **video promotion** attack against Text-to-Video Retrieval (T2VR) to expose an overlooked vulnerability that may be abused for financial gain and widespread (mis)information. See our work at [ArXiv](https://arxiv.org/abs/2508.06964)/[HuggingFace](https://huggingface.co/papers/2508.06964).
 
 ## Table of Contents
 - [Introduciton](#introduction)
@@ -34,10 +34,12 @@ Using the open-sourced code, we trained both videos on MSR-VTT for our attacks a
 
 | Model |  R@1 |  R@5 | R@10 | MR |
 | :---- | :---- | :---- | :---- | :---- |
-| DRL(Paper) | 47.60% | 73.40% | 81.90% | 2.00 |
-| [DRL(Reproduced)](https://drive.google.com/file/d/1WV2ogaelAB3XoP5wxJpkeOq6bINhrdBt/view?usp=sharing) | 46.00% | 72.10% | 81.70% | 2.00 |
-| Cap4Video(Paper) | 49.30% | 74.30% | 83.80% | 2.00 |
-| [Cap4Video(Reproduceded)](https://drive.google.com/file/d/1D72TP7EElj_2dsb_Q-_z-ZyDj2HUvQiZ/view?usp=sharing) | 47.50% | 73.90% |  82.50% | 2.00 |
+| DRL (Paper) | 47.60% | 73.40% | 81.90% | 2.00 |
+| [DRL (Reproduced)](https://drive.google.com/file/d/1WV2ogaelAB3XoP5wxJpkeOq6bINhrdBt/view?usp=sharing) | 46.00% | 72.10% | 81.70% | 2.00 |
+| Cap4Video (Paper) | 49.30% | 74.30% | 83.80% | 2.00 |
+| [Cap4Video (Reproduceded)](https://drive.google.com/file/d/1D72TP7EElj_2dsb_Q-_z-ZyDj2HUvQiZ/view?usp=sharing) | 47.50% | 73.90% |  82.50% | 2.00 |
+
+*Disclaimer: We present performance comparison only to inform other researchers of the performance gap (possibily due to hardware discprepancies) before evaluating them on adversarial attacks.*
 
 ## To-do
 - Full code will be released upon acceptance.
