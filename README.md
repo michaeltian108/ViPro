@@ -28,15 +28,16 @@ Full code will be released after acceptance.
 
 
 ## Weights
+*Disclaimer: All open-weighted models are trained using code provided by the authors and we only share weights for reproducibility of T2VR related attacks/defenses.*
 We express our sincere thank for the orignal work [DRL](https://github.com/foolwood/DRL) and [Cap4Video](https://github.com/whwu95/Cap4Video).
 Using the open-sourced code, we trained both videos on MSR-VTT for our attacks and provided results on MSR-VTT below, click the name of the model for weights downloading:
 
 | Model |  R@1 |  R@5 | R@10 | MR |
 | :---- | :---- | :---- | :---- | :---- |
-| DRL | 47.60% | 73.40% | 81.90% | 2.00 |
-| [DRL(Ours)](https://drive.google.com/file/d/1WV2ogaelAB3XoP5wxJpkeOq6bINhrdBt/view?usp=sharing) | 46.00% | 72.10% | 81.70% | 2.00 |
-| Cap4Video | 49.30% | 74.30% | 83.80% | 2.00 |
-| [Cap4Video(Ours)](https://drive.google.com/file/d/1D72TP7EElj_2dsb_Q-_z-ZyDj2HUvQiZ/view?usp=sharing) | 47.50% | 73.90% |  82.50% | 2.00 |
+| DRL(Paper) | 47.60% | 73.40% | 81.90% | 2.00 |
+| [DRL(Reproduced)](https://drive.google.com/file/d/1WV2ogaelAB3XoP5wxJpkeOq6bINhrdBt/view?usp=sharing) | 46.00% | 72.10% | 81.70% | 2.00 |
+| Cap4Video(Paper) | 49.30% | 74.30% | 83.80% | 2.00 |
+| [Cap4Video(Reproduceded)](https://drive.google.com/file/d/1D72TP7EElj_2dsb_Q-_z-ZyDj2HUvQiZ/view?usp=sharing) | 47.50% | 73.90% |  82.50% | 2.00 |
 
 ## To-do
 - Full code will be released upon acceptance.
