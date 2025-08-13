@@ -51,7 +51,7 @@ Using the open-sourced code, we trained both videos on MSR-VTT for our attacks a
 - Initial realase of ViPro.
 
 ### v1.1.0 🎉 08/12/2025
-- Weight checkpoints for DRL and Cap4Video open sourced.
+- Open sourced weight checkpoints for DRL and Cap4Video.
 - Added overview figures and details of our projects.
 - Improved readability.
 
