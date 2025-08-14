@@ -28,7 +28,8 @@ Full code will be released after acceptance.
 
 
 ## Weights
-*Disclaimer: All open-weighted models are trained using code provided by the authors and we only share weights for reproducibility of T2VR related attacks/defenses.*
+**Disclaimer: All open-weighted models are trained using code provided by the authors and we only share weights for reproducibility of T2VR related attacks/defenses.**
+
 We express our sincere thank for the orignal work [DRL](https://github.com/foolwood/DRL) and [Cap4Video](https://github.com/whwu95/Cap4Video).
 Using the open-sourced code, we trained both videos on MSR-VTT for our attacks and provided results on MSR-VTT below, click the name of the model for weights downloading:
 
@@ -39,7 +40,7 @@ Using the open-sourced code, we trained both videos on MSR-VTT for our attacks a
 | Cap4Video (Paper) | 49.30% | 74.30% | 83.80% | 2.00 |
 | [Cap4Video (Reproduceded)](https://drive.google.com/file/d/1D72TP7EElj_2dsb_Q-_z-ZyDj2HUvQiZ/view?usp=sharing) | 47.50% | 73.90% |  82.50% | 2.00 |
 
-*Disclaimer: We present performance comparison only to inform other researchers of the performance gap (possibily due to hardware discprepancies) before evaluating them on adversarial attacks.*
+**Disclaimer: We present performance comparison only to inform other researchers of the performance gap (possibily due to hardware discprepancies) before evaluating them on adversarial attacks.**
 
 ## To-do
 - Full code will be released upon acceptance.
