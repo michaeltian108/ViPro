@@ -40,7 +40,7 @@ Using the open-sourced code, we trained both videos on MSR-VTT for our attacks a
 | Cap4Video (Paper) | 49.30% | 74.30% | 83.80% | 2.00 |
 | [Cap4Video (Reproduceded)](https://drive.google.com/file/d/1D72TP7EElj_2dsb_Q-_z-ZyDj2HUvQiZ/view?usp=sharing) | 47.50% | 73.90% |  82.50% | 2.00 |
 
-**Disclaimer: We present performance comparison only to inform other researchers of the performance gap (possibily due to hardware discprepancies) before evaluating them on adversarial attacks.**
+Note that: *We present performance comparison only to inform other researchers of the performance gap (possibily due to hardware discprepancies) before evaluating them on adversarial attacks.*
 
 ## To-do
 - Full code will be released upon acceptance.
