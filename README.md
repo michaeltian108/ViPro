@@ -12,7 +12,18 @@ We propose the first **video promotion** attack against Text-to-Video Retrieval 
 - [Citation](#citation)
 
 ## Introduciton
-In our work, we pioneer **Vi**deo **Pro**motion (ViPro) as the first attack to adversarially *promote* video ranks regarding selected queries. We further propose **Mo**dality **Re**finement (MoRe) to capture the intricate intra-/inter-modality interaction to boost transferability. MoRe contains: (1) **Temporal Clipping:** Video frames are clustered into video clips based on frame-to-frame similarity. (2) **Semantical Weighting:** For each clip and each query, we calculate its frame-to-frame similarity and frame-to-query similarity using cosine similarity between all frames x and all query tokens. Frames and queries with low similarity are suppressed by their corresponding weights during optimization. (3) **Clip-wise Optimization:** Perturbation are optimized as per clip before outputting the final perturbed video:
+In our work, we pioneer **Vi**deo **Pro**motion (ViPro) as the first attack to adversarially *promote* video ranks regarding selected queries. 
+### Video Promotion v.s. Video Suppression
+We first provide an intuitive illustration on the difference between video promotion attacks (Right) and video suppression attacks (Left) .
+
+<div align="center">
+<img width="537" height="377" alt="ViPro Illustration_v2" src="https://github.com/user-attachments/assets/11f8ab1a-edd9-43a5-aba3-d43b1075c430" />
+</div>
+
+The circle represents the retrieval boundary in which videos can be retrieved by the query (text). The yellow shape indicates the targeted area in which the perturbed videos must reach for successful attacks. Video promotion is more challenging, as it seeks an intersection of the retrieval boundaries for all target queries, while video suppression only pushes videos outside the retrieval boundary.
+
+### Modality Refinement (MoRe)
+We further propose **Mo**dality **Re**finement (MoRe) to capture the intricate intra-/inter-modality interaction to boost transferability. MoRe contains: (1) **Temporal Clipping:** Video frames are clustered into video clips based on frame-to-frame similarity. (2) **Semantical Weighting:** For each clip and each query, we calculate its frame-to-frame similarity and frame-to-query similarity using cosine similarity between all frames x and all query tokens. Frames and queries with low similarity are suppressed by their corresponding weights during optimization. (3) **Clip-wise Optimization:** Perturbation are optimized as per clip before outputting the final perturbed video:
 
 <img width="2437" height="811" alt="overview_v2" src="https://github.com/user-attachments/assets/694da61b-f62a-4b26-882e-e2ac2acff6e4" />
 
