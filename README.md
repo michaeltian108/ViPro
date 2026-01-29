@@ -4,7 +4,7 @@
 Our work has just been accepted by IEEE Transactions on Information Forensics and Security (TIFS)! We will release all code shortly in a major code udpate.
 
 ## Overview
-We propose the first **video promotion** attack against Text-to-Video Retrieval (T2VR) to expose an overlooked vulnerability that may be abused for financial gain and widespread (mis)information. See our work at [IEEE](https://ieeexplore.ieee.org/document/11361157)[ArXiv](https://arxiv.org/abs/2508.06964)/[HuggingFace](https://huggingface.co/papers/2508.06964).
+We propose the first **video promotion** attack against Text-to-Video Retrieval (T2VR) to expose an overlooked vulnerability that may be abused for financial gain and widespread (mis)information. See our work at [IEEE](https://ieeexplore.ieee.org/document/11361157)/[ArXiv](https://arxiv.org/abs/2508.06964)/[HuggingFace](https://huggingface.co/papers/2508.06964).
 
 ## Table of Contents
 - [Introduciton](#introduction)
